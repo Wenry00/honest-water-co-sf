@@ -9,17 +9,26 @@ const img = (name) => `/images/${name}`
 
 const serviceAreas = ['San Francisco','Daly City','San Mateo','Burlingame','Oakland','Berkeley','San Rafael','Mill Valley','San Jose','Walnut Creek','Fremont','Palo Alto']
 const products = [
-  {title:'Complete Home System Package', tag:'Best Seller', image:'whole-home-system.png', description:'A full-home water treatment solution built to improve water quality at the main point of entry, helping your entire home enjoy cleaner, softer water.', bullets:['Whole-home treatment','Cleaner showers','Better taste and smell','Appliance protection']},
-  {title:'Water Softener with Chlorine Filtration', tag:'Family Favorite', image:'softener-system.png', description:'Designed to reduce hardness and chlorine so your water feels better on skin, hair, dishes, laundry, and plumbing fixtures.', bullets:['Softer skin and hair','Less scale buildup','Cleaner dishes','Lower soap usage']},
-  {title:'Tankless Reverse Osmosis Drinking System', tag:'Drinking Water Upgrade', image:'reverse-osmosis-system.png', description:'A sleek under-sink drinking water system for crisp, clean water straight from the tap without relying on bottled water.', bullets:['Great-tasting water','Under-sink design','Daily drinking water','Modern filtration']}
+  {
+    title:'Complete Home System Package',
+    image:'whole-home-system.png'
+  },
+  {
+    title:'Water Softener with Chlorine Filtration',
+    image:'softener-system.png'
+  },
+  {
+    title:'Tankless Reverse Osmosis Drinking System',
+    image:'reverse-osmosis-system.png'
+  }
 ]
 const installs = [
-  ['install-single-garage.jpg','Whole home water filtration installation'],
-  ['install-double-system.jpg','Dual tank whole home water system'],
-  ['install-outdoor-brick.jpg','Outdoor whole home water filtration install'],
-  ['install-clean-wall.jpg','Clean garage water filtration setup'],
-  ['install-corner-system.jpg','Bay Area home water softener installation'],
-  ['kitchen-clean-water.jpg','Clean drinking water from kitchen faucet']
+  ['install-single-garage.jpg'],
+  ['install-double-system.jpg'],
+  ['install-outdoor-brick.jpg'],
+  ['install-clean-wall.jpg'],
+  ['install-corner-system.jpg'],
+  ['kitchen-clean-water.jpg']
 ]
 const faqs = [
   ['Do you service all of the Bay Area?','Yes. We serve homes across San Francisco and most Bay Area cities within roughly 60 to 90 minutes of San Francisco.'],
