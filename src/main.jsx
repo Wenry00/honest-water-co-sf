@@ -5,7 +5,7 @@ import './index.css'
 
 const phone = '415-378-0179'
 const cleanPhone = phone.replace(/-/g, '')
-const img = (name) => `/images/${name}`
+const img = (name) => `/${name}`
 
 const serviceAreas = ['San Francisco','Daly City','San Mateo','Burlingame','Oakland','Berkeley','San Rafael','Mill Valley','San Jose','Walnut Creek','Fremont','Palo Alto']
 const products = [
