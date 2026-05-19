@@ -11,15 +11,24 @@ const serviceAreas = ['San Francisco','Daly City','San Mateo','Burlingame','Oakl
 const products = [
   {
     title:'Complete Home System Package',
-    image:'whole-home-system.png'
+    tag:'Best Seller',
+    image:'whole-home-system.png',
+    description:'A full-home water treatment solution built to improve water quality at the main point of entry, helping your entire home enjoy cleaner, softer water.',
+    bullets:['Whole-home treatment','Cleaner showers','Better taste and smell','Appliance protection']
   },
   {
     title:'Water Softener with Chlorine Filtration',
-    image:'softener-system.png'
+    tag:'Family Favorite',
+    image:'softener-system.png',
+    description:'Designed to reduce hardness and chlorine so your water feels better on skin, hair, dishes, laundry, and plumbing fixtures.',
+    bullets:['Softer skin and hair','Less scale buildup','Cleaner dishes','Lower soap usage']
   },
   {
     title:'Tankless Reverse Osmosis Drinking System',
-    image:'reverse-osmosis-system.png'
+    tag:'Drinking Water Upgrade',
+    image:'reverse-osmosis-system.png',
+    description:'A sleek under-sink drinking water system for crisp, clean water straight from the tap.',
+    bullets:['Great-tasting water','Under-sink design','Daily drinking water','Modern filtration']
   }
 ]
 const installs = [
