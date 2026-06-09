@@ -18,7 +18,7 @@ function App() {
     <main>
       <header className="nav">
         <a className="brand" href="#top" aria-label="Golden Crest Water home">
-          <img src={img('logo-golden-crest.png')} alt="Golden Crest Water logo" />
+         <img className="logo" src={img('logo-golden-crest.png')} alt="Golden Crest Water logo" />
         </a>
         <nav className="links">
           <a href="#systems">Systems</a>
