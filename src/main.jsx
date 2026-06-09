@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { Droplets, ShieldCheck, Wrench, Star, Home, CheckCircle2, Sparkles, Phone, MapPin, CalendarDays, ArrowRight, Waves, Gauge, Filter } from 'lucide-react';
 import "../style.css";
 
-const img = (name) => `/images/${name}`;
+const img = (name) => `/${name}`;
 
 function App() {
   const serviceAreas = ['San Francisco', 'Daly City', 'Burlingame', 'San Mateo', 'Redwood City', 'Palo Alto', 'San Jose', 'Marin County', 'East Bay'];
