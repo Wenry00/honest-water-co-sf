@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Droplets, ShieldCheck, Wrench, Star, Home, CheckCircle2, Sparkles, Phone, MapPin, CalendarDays, ArrowRight, Waves, Gauge, Filter } from 'lucide-react';
-import './style.css';
+import "../style.css";
 
 const img = (name) => `/images/${name}`;
 
