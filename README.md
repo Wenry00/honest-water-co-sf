@@ -8,4 +8,4 @@ Ready-to-deploy Vite/React site for Vercel.
 3. Commit changes.
 4. Vercel will redeploy automatically.
 
-Do not upload the zip itself and do not upload the folder as a nested folder.
+Do not upload the zip itself and do not upload the folder as a nested folder. 
