@@ -39,11 +39,17 @@ function App() {
             <a href="#systems" className="button secondary">View Systems</a>
           </div>
           <div className="contact-info">
-  <a href="tel:4155470434">(415) 547-0434</a>
-
-  <a href="mailto:info@goldencrestwater.com">
-    info@goldencrestwater.com
+  <a href="tel:4155470434" className="contact-pill">
+    📞 (415) 547-0434
   </a>
+
+  <a
+    href="mailto:info@goldencrestwater.com"
+    className="contact-pill"
+  >
+    ✉️ info@goldencrestwater.com
+  </a>
+</div>
 </div>
           <div className="proof-row">
             <span><CheckCircle2 size={17} /> Free water consultation</span>
