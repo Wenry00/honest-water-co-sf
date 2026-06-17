@@ -29,28 +29,30 @@ function App() {
         </nav>
       </header>
 
-      <section id="top" className="hero">
-        <div className="hero-copy">
-          <div className="eyebrow"><Droplets size={17} /> Bay Area Whole-Home Water Treatment</div>
-          <h1>Premium Water Filtration for Bay Area Homes</h1>
-          <p className="lead">Golden Crest Water helps homeowners get cleaner, softer, better-tasting water with professionally installed filtration, softener, and reverse osmosis systems.</p>
-          <div className="hero-actions">
-            <a href="#quote" className="button primary">Request a Free Quote <ArrowRight size={18} /></a>
-            <a href="#systems" className="button secondary">View Systems</a>
-          </div>
-       
-</div>
-          <div className="proof-row">
-            <span><CheckCircle2 size={17} /> Free water consultation</span>
-            <span><CheckCircle2 size={17} /> Local Bay Area service</span>
-            <span><CheckCircle2 size={17} /> Installed by qualified pros</span>
-          </div>
-        <div className="hero-media">
-          <div className="image-card big"><img src={img('whole-home-system.png')} alt="Whole home water filtration system" /></div>
-          <div className="floating-card top"><ShieldCheck size={20} /> Lifetime warranty options</div>
-          <div className="floating-card bottom"><Sparkles size={20} /> Cleaner water from every tap</div>
-        </div>
-      </section>
+     <section id="top" className="hero">
+  <div className="hero-copy">
+    <div className="eyebrow"><Droplets size={17} /> Bay Area Whole-Home Water Treatment</div>
+    <h1>Premium Water Filtration for Bay Area Homes</h1>
+    <p className="lead">Golden Crest Water helps homeowners get cleaner, softer, better-tasting water with professionally installed filtration, softener, and reverse osmosis systems.</p>
+
+    <div className="hero-actions">
+      <a href="#quote" className="button primary">Request a Free Quote <ArrowRight size={18} /></a>
+      <a href="#systems" className="button secondary">View Systems</a>
+    </div>
+
+    <div className="proof-row">
+      <span><CheckCircle2 size={17} /> Free water consultation</span>
+      <span><CheckCircle2 size={17} /> Local Bay Area service</span>
+      <span><CheckCircle2 size={17} /> Installed by qualified pros</span>
+    </div>
+  </div>
+
+  <div className="hero-media">
+    <div className="image-card big"><img src={img('whole-home-system.png')} alt="Whole home water filtration system" /></div>
+    <div className="floating-card top"><ShieldCheck size={20} /> Lifetime warranty options</div>
+    <div className="floating-card bottom"><Sparkles size={20} /> Cleaner water from every tap</div>
+  </div>
+</section>
 
       <section className="trust-grid" aria-label="Golden Crest Water benefits">
         <div><ShieldCheck /><h3>Strong Warranty Options</h3><p>Protection-focused system options built for long-term home use.</p></div>
