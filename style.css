@@ -48,3 +48,14 @@ footer a {
   text-decoration: none;
   font-weight: 600;
 }
+.phone-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
