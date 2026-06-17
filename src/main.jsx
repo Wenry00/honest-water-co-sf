@@ -154,19 +154,21 @@ function App() {
       </section>
 
       <footer>
-        <div><img src={img('logo-golden-crest.png')} alt="Golden Crest Water logo" /><p>Premium water filtration, softening, and drinking-water systems for Bay Area homeowners.</p></div>
-       <div>
-  <div className="footer-contact">
-  <a href="tel:4155470434">
-    <Phone size={14} /> (415) 547-0434
-  </a>
+  <div>
+    <img src={img('logo-golden-crest.png')} alt="Golden Crest Water logo" />
+    <p>Premium water filtration, softening, and drinking-water systems for Bay Area homeowners.</p>
+  </div>
 
-  <a href="mailto:info@goldencrestwater.com">
-    info@goldencrestwater.com
-  </a>
-</div>
-</div>
-      </footer>
+  <div className="footer-contact">
+    <a href="tel:4155470434">
+      <Phone size={14} /> (415) 547-0434
+    </a>
+
+    <a href="mailto:info@goldencrestwater.com">
+      info@goldencrestwater.com
+    </a>
+  </div>
+</footer>
     </main>
   );
 }
