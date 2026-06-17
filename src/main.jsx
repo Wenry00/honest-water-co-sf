@@ -45,7 +45,6 @@ function App() {
             <span><CheckCircle2 size={17} /> Local Bay Area service</span>
             <span><CheckCircle2 size={17} /> Installed by qualified pros</span>
           </div>
-        </div>
         <div className="hero-media">
           <div className="image-card big"><img src={img('whole-home-system.png')} alt="Whole home water filtration system" /></div>
           <div className="floating-card top"><ShieldCheck size={20} /> Lifetime warranty options</div>
