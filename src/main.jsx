@@ -156,17 +156,15 @@ function App() {
       <footer>
         <div><img src={img('logo-golden-crest.png')} alt="Golden Crest Water logo" /><p>Premium water filtration, softening, and drinking-water systems for Bay Area homeowners.</p></div>
        <div>
-  <strong>Golden Crest Water</strong>
+  <div className="footer-contact">
+  <a href="tel:4155470434">
+    <Phone size={14} /> (415) 547-0434
+  </a>
 
-  <p>Bay Area, California</p>
-
-  <p><Phone size={14} /> (415) 547-0434</p>
-
-  <p>
-    <a href="mailto:info@goldencrestwater.com">
-      info@goldencrestwater.com
-    </a>
-  </p>
+  <a href="mailto:info@goldencrestwater.com">
+    info@goldencrestwater.com
+  </a>
+</div>
 </div>
       </footer>
     </main>
