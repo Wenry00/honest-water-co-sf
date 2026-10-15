@@ -146,14 +146,7 @@ function App() {
           <h2>Ready to upgrade your home’s water?</h2>
           <p>Request a free consultation and we’ll help you choose the right filtration, softening, or reverse osmosis setup for your home.</p>
         </div>
-        <form className="quote-form">
-          <label>Name<input placeholder="Your name" /></label>
-          <label>Phone<input placeholder="Your phone number" /></label>
-          <label>City<input placeholder="City" /></label>
-          <label>What are you interested in?<select><option>Whole-home filtration</option><option>Water softener</option><option>Reverse osmosis drinking water</option><option>Not sure yet</option></select></label>
-          <button type="button" className="button primary full"><CalendarDays size={18} /> Request Consultation</button>
-          <small>Form placeholder. Replace this area with your GoHighLevel embed when ready.</small>
-        </form>
+      
       </section>
 
       <footer>
