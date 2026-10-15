@@ -39,8 +39,8 @@ function App() {
       <a href="#quote" className="button primary">Request a Free Quote <ArrowRight size={18} /></a>
       <a href="#systems" className="button secondary">View Systems</a>
     </div>
-<a href="tel:4155470434" className="phone-cta">
-  <Phone size={16} /> Call or Text (415) 547-0434
+<a href="tel:+16282969860" className="phone-cta">
+  <Phone size={16} /> Call or Text (628) 296-9860
 </a>    
     <div className="proof-row">
       <span><CheckCircle2 size={17} /> Free water consultation</span>
