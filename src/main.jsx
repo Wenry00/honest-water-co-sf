@@ -163,8 +163,8 @@ function App() {
   </div>
 
   <div className="footer-contact">
-    <a href="tel:4155470434">
-      <Phone size={14} /> (415) 547-0434
+    <a href="tel:+16282969860">
+      <Phone size={14} /> (628) 296-9860
     </a>
 
     <a href="mailto:info@goldencrestwater.com">
